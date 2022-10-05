@@ -1,0 +1,101 @@
+*{
+	font-family: Arial;
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url(images/bag.png);
+	background-color:rgba(107, 112, 145, 0.5);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: bottom;
+}
+
+.section_element{
+	color:white;
+	text-align:center;
+	display:flex;
+	margin:0 auto;
+	background-color: rgba(107, 112, 145, 0.5);
+	padding:4em;
+}
+.section_element .sd{
+	width:330px;
+	margin-left:17%;
+	text-align:left;
+}
+.section_element .sd .osn_p{
+	text-align:left;
+	font-weight: bold;
+}
+.section_element h1{
+	margin-bottom:1em;
+	text-transform: uppercase;
+}
+.item input {
+	font-weight: bold;
+	width: 100%;
+	padding:1em;
+	background: transparent;
+}
+.form_for_div{
+	margin-left:15%;
+	width:33%;
+}
+.form_for_div .two_input{
+	display: flex;
+	justify-content: space-between;
+}
+.form_for_div .two_input .item{
+	width:47.5%;
+}
+.section_element .form_for_div .item .textarea_element{
+	min-width:100%;
+	max-width:100%;
+	min-height:200px;
+	max-width:200px;
+	padding:1em;
+}
+.section_element .form_for_div 
+input[type="text"],
+input[type="email"]
+{
+	border-bottom:1px white solid;
+	border-left: solid;
+	border-right: solid;
+	border-top: solid;
+	background:transparent;
+	color:#fff;
+}
+textarea{
+	border-bottom:3px white solid;
+	border-left: solid;
+	border-right: solid;
+	border-top: solid;
+	background:transparent;
+	color:#fff;
+}
+
+.section_element .form_for_div
+input::placeholder,
+textarea::placeholder{
+	color:#fff;
+}
+
+.tp{
+	margin-right:100%;
+	width:100%;
+	text-align:left;
+	font-weight: bold;
+}
+.orange_but{
+	background: #f6ae48;
+	border:none;
+	border-radius:15px;
+	color:#fff;
+	width:150px;
+	margin-left:80%;
+	padding:1em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
